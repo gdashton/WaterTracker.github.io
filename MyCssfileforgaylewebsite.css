@@ -1,63 +1,113 @@
-<!DOCTYPE html>
- <head>
-      <meta charset="utf-8">
-   <title> Home</title>
-   <link rel="stylesheet" href="MyCssfileforgaylewebsite.css"/>
- </head>
- <body>
-   <ul class="menu">
-   <li><a href="gaylewebsite.html">Home</a></li>
-   <li><a href="services.html">Watertrackr</a></li>
-   <li><a href="about.html.html">Why Conserve</a></li>
-<li><a href="file:///C:/Users/Elicia/Desktop/whatcanyoudotohelp.html">About</a></li>
-  <li><a href="contactus.html">Contact Us</a></li>
-</ul>
+.menu {
+  list-style: none;
+  background-color:black;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.menu li{
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  padding: 14px 14px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.menu li a:hover:not(.active){
+  background-color:#90b3d6;
+}
 
 
 
-   <img class="waterpic" src="C:\Users\Elicia\Downloads\FINAL WATER.gif" alt="water" width="1349px" height="520px"/>
+p {
+  font-family: Verdana;
+  font-size: 21px;
+  color:Black;
+}
 
- </center>
-   <!-- first paragraph -->
-             <br>
+b{
+  font-size: 20px;
+  font-family: Verdana;
+}
 
-          <center>
-          <h1> Save, Conserve, Repeat!</h1>
-        </center>
+ol{
+font-size: 21px;
+font-family: Verdana;
+}
 
-<br>
-<br>
-<br>
-<div>
-<p>Welcome to Watertrackr! Is your water bill too high?  Do you want to save extra money? What about avoiding that major leak you could've fixed months ago if you had known?You've come to the right place!
-Our company is currently working on a device that will not only help you keep track of how much water you use but also help you to conserve water.
-Learn more exciting benefits about WaterTrackr by clicking the button below.<p>
-</div>
-
-    <center>
-            <button><a href="services.html">Go to Watertrackr</a></button>
-    </center>
-<br>
-
-<center>
-<a href="https://www.facebook.com/gayle.ashton.9862">
-<img src="C:\Users\Elicia\Downloads\instagram-removebg-preview.png" width="55" height="45" />
-</a>
-<a href="https://www.instagram.com/gdashton/">
- <img src="C:\Users\Elicia\Downloads\facebook-removebg-preview.png" width="55" height="45"/>
-</a>
-<p style="clear: both;">
-</center>
-
-</body>
-<center>
- <footer class="footerStyle">
-      <ul>
-         <li><a> Copyright 2020</li></a>
-
-      </ul>
-  </footer>
-</center>
+h1{
+  font-family: sans-serif;
+  font-size: 27px;
+  color: black;
+}
 
 
- </html>
+*{
+  margin: 0;
+  padding: 0;
+}
+
+input{
+  width: 205px;
+  height: 35px;
+  button: width:35px; height: 25px;
+}
+
+form{
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+input{
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+button {
+  background-color: white;
+  border: white;
+  color: #90b3d6;
+  padding: 24px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
+.footerStyle ul{
+  list-style: none;
+  background-color: #90b3d6;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.footerStyle li{
+  float:center;
+}
+
+.footerStyle li a{
+  display: block;
+  padding: 14px 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Verdana;
+  font-size: 18px;
+}
+
+.footerStyle li a:hover:not(.active){
+  background-color:black
+}
